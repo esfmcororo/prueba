@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESFM "Simón Bolívar" CORORO</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+    <link rel="stylesheet" href="css/styles.css?v=2.0.0">
+
+    <!-- Librerías externas -->
+    <script src="https://unpkg.com/html5-qrcode"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+    <style>
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="loading">Cargando...</div>
+    </div>
+
+    <!-- Core: Configuración -->
+    <script src="js/config.js?v=2.0.0"></script>
+    <script src="js/router.js?v=2.0.0"></script>
+
+    <!-- Core: Base de datos -->
+    <script src="js/core/database.local.js?v=2.0.0"></script>
+    <script src="js/core/database.turso.js?v=2.0.0"></script>
+    <script src="js/core/database.adapter.js?v=2.0.0"></script>
+
+    <!-- Core: Autenticación -->
+    <script src="js/core/auth.js?v=2.0.0"></script>
+
+    <!-- Servicios -->
+    <script src="js/services/utils.service.js?v=2.0.0"></script>
+    <script src="js/services/offline.service.js?v=2.0.0"></script>
+
+    <!-- Módulos: Login -->
+    <script src="js/modules/login/login.view.js?v=2.0.0"></script>
+    <script src="js/modules/login/login.controller.js?v=2.0.0"></script>
+
+    <!-- Módulos: Dashboard -->
+    <script src="js/modules/dashboard/dashboard.view.js?v=2.0.0"></script>
+    <script src="js/modules/dashboard/dashboard.controller.js?v=2.0.0"></script>
+
+    <!-- Módulos: Asistencia -->
+    <script src="js/modules/asistencia/asistencia.view.js?v=2.0.0"></script>
+    <script src="js/modules/asistencia/asistencia.controller.js?v=2.0.0"></script>
+    <script src="js/modules/asistencia/ver-asistencias.view.js?v=2.0.0"></script>
+    <script src="js/modules/asistencia/ver-asistencias.controller.js?v=2.0.0"></script>
+
+    <!-- Módulos: Eventos -->
+    <script src="js/modules/eventos/crear-evento.view.js?v=2.0.0"></script>
+    <script src="js/modules/eventos/crear-evento.controller.js?v=2.0.0"></script>
+    <script src="js/modules/eventos/editar-evento.view.js?v=2.0.0"></script>
+    <script src="js/modules/eventos/editar-evento.controller.js?v=2.0.0"></script>
+
+    <!-- Módulos: Scanner -->
+    <script src="js/modules/scanner/scanner.view.js?v=2.0.0"></script>
+    <script src="js/modules/scanner/scanner.controller.js?v=2.0.0"></script>
+
+    <!-- Módulos: Estudiantes -->
+    <script src="js/modules/estudiantes/estudiantes.view.js?v=2.0.0"></script>
+    <script src="js/modules/estudiantes/estudiantes.controller.js?v=2.0.0"></script>
+
+    <!-- Aplicación principal -->
+    <script src="js/main.js?v=2.0.0"></script>
+</body>
+</html>

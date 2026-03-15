@@ -1,0 +1,48 @@
+# Archivos del sistema
+*.db
+*.sqlite
+*.log
+*.tar.gz
+*.rar
+
+# Archivos de desarrollo local
+node_modules/
+.env
+.env.local
+
+# Archivos de imagen/multimedia innecesarios
+fondo_escritorio.jpg
+fondo_movil.png
+swappy-*.png
+*.rar.tar
+
+# Archivos de documentación interna (no necesarios en producción)
+PROGRESO_MODULARIZACION.md
+RESUMEN_FINAL.md
+RESUMEN_EJECUTIVO.md
+ARQUITECTURA_MODULAR.md
+ESTRUCTURA_MODULAR.md
+HTML_MODULAR.md
+GUIA_MODULARIZACION.md
+README_MODULARIZACION.md
+README_MODULAR.md
+COMO_VER_MODIFICACIONES.md
+SOLUCION_PROBLEMAS.md
+COMANDOS_UTILES.md
+DOCUMENTACION_TECNICA.md
+ESTADO_ACTUAL.md
+TESTING.md
+GUIA_USO.md
+
+# Scripts de utilidad
+generar-estructura.sh
+ejecutar_limpieza.js
+push.sh
+
+# Archivos Excel/CSV de datos (no subir datos reales)
+*.xlsx
+*.xls
+*.csv
+
+# Archivos de limpiar BD
+limpiar_bd.html
