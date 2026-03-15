@@ -11,8 +11,6 @@ node_modules/
 .env.local
 
 # Archivos de imagen/multimedia innecesarios
-fondo_escritorio.jpg
-fondo_movil.png
 swappy-*.png
 *.rar.tar
 

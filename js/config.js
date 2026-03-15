@@ -1,7 +1,7 @@
 // ========== CONFIGURACIÓN GLOBAL ==========
 const CONFIG = {
     // Base de datos
-    DB_URL: 'libsql://pruebas-sfemcororo.aws-us-east-1.turso.io',
+    DB_URL: 'https://pruebas-sfemcororo.aws-us-east-1.turso.io',
     DB_TOKEN: 'eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3NzM2MDAzNDksImlkIjoiMDE5Y2YyZDEtNjYwMS03ZjRjLTlhYjUtMmZiZjAxNzFlM2VhIiwicmlkIjoiZTFiY2RhYTAtNmU5NC00NTE4LWIyNDktOTlmOWRiYWQxYTQyIn0.UDUxJYB_QG8OguPF1GTJDfRdUZ2XEjW4AfsW383gj-C4pSyQnV4uoQxD06KFbHVdfcGEYj6tdmpn1epVvWwjBA',
     
     // Aplicación
